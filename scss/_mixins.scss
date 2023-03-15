@@ -1,0 +1,13 @@
+@mixin none{
+    @media (min-width:768px) {
+        display: block;
+    }
+}
+
+@mixin hover-orange{
+    &:hover{
+            color: orange;
+            cursor: pointer;
+    }
+
+}
