@@ -32,7 +32,7 @@
     }
     &__item{
         &--orange{
-            background-color: orange;
+            background-color: $main-color;
             height: 60%;
             display: flex;
             align-items: center;
