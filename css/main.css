@@ -240,7 +240,41 @@ body {
 
 .opinion {
   flex-basis: 100%;
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.opinion__main {
+  padding: 20px;
+  flex-basis: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+@media (min-width: 1024px) {
+  .opinion__main {
+    flex-basis: 80%;
+  }
+}
+@media (min-width: 1440px) {
+  .opinion__main {
+    flex-basis: 45%;
+  }
+}
+.opinion__image {
+  width: 70px;
+  border-radius: 50px;
+}
+.opinion__text {
+  font-size: 1rem;
+}
+@media (min-width: 1920px) {
+  .opinion__text {
+    font-size: 1.3rem;
+  }
 }
 
 .newsletter {

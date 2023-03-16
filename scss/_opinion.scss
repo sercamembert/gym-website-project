@@ -1,4 +1,32 @@
 .opinion{
     flex-basis: 100%;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &__main{
+        padding: 20px;
+        flex-basis: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        border: 2px solid $main-color;
+        border-radius: 5px;
+        @media (min-width:1024px) {
+            flex-basis: 80%;
+        }
+        @media (min-width:1440px) {
+            flex-basis: 45%;
+        }
+    }
+    &__image{
+        width: 70px;
+        border-radius: 50px;
+    }
+    &__text{
+        font-size: 1rem;
+        @media (min-width:1920px) {
+            font-size: 1.3rem;
+        }
+    }
 }
