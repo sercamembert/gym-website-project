@@ -131,6 +131,14 @@ body {
 .description__item--show:hover {
   cursor: pointer;
 }
+.description__main-text {
+  font-size: 1rem;
+}
+@media (min-width: 1024px) {
+  .description__main-text {
+    font-size: 1.3rem;
+  }
+}
 
 .contact {
   flex-basis: 100%;
