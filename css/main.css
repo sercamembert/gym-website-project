@@ -362,7 +362,18 @@ body {
 
 .footer {
   flex-basis: 100%;
-  background-color: rgb(205, 223, 114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  height: 100px;
+  font-size: 3rem;
+}
+.footer__icon {
+  margin: 5px;
+}
+.footer__icon:hover {
+  cursor: pointer;
 }
 
 .header {
