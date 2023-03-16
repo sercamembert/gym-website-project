@@ -1,4 +1,22 @@
 .cards{
     flex-basis: 100%;
-    background-color: rgb(84, 129, 152);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    &__item{
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        @media (min-width:768px) {
+            flex-basis: auto;
+        }
+    }
+    &__heading{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $heading-font;
+        @include media-font-size;
+    }
 }

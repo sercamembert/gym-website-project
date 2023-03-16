@@ -235,7 +235,32 @@ body {
 
 .cards {
   flex-basis: 100%;
-  background-color: rgb(84, 129, 152);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.cards__item {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+@media (min-width: 768px) {
+  .cards__item {
+    flex-basis: auto;
+  }
+}
+.cards__heading {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Bungee", cursive;
+}
+@media (min-width: 1024px) {
+  .cards__heading {
+    font-size: 2.4rem;
+  }
 }
 
 .opinion {
