@@ -1,4 +1,78 @@
 .ofert{
+    margin-top: 100px;
     flex-basis: 100%;
-    background-color: rgb(19, 79, 59);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    &__item{
+        flex-basis: 100%;
+        height: 300px;
+        @media (min-width:1024px) {
+            flex-basis: 30%;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+        box-shadow: 0 0 3px 0 #000;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 0 0 6px 0 #000;
+        }
+    }
+    &__text{
+        font-family: $heading-font;
+        color: white;
+        text-shadow: -1px 0 $main-color, 0 2px $main-color, 2px 0 $main-color, 0 -1px $main-color;
+        font-size: 1.5rem;
+        @media (min-width:1440px) {
+            font-size: 2rem;
+        }
+        text-transform: uppercase;
+    }
+    &__container{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-self: center;
+        justify-content: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    &__container--2{
+        justify-content: right;
+    }
+    &__heading{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $heading-font;
+        @include media-font-size;
+    }
+    &__item--cardio{
+        background-image: url('../img/strefy/cardio.png');
+        @include ofert-image;
+    }
+    &__item--grupowe{
+        background-image: url('../img/strefy/strefa-grupowa.png');
+        @include ofert-image;
+    }
+    &__item--funkcjonalny{
+        background-image: url('../img/strefy/trening-funkcjonalny.png');
+        @include ofert-image;
+    }
+    &__item--ciezary{
+        background-image: url('../img/strefy/wolne-ciezary.png');
+        @include ofert-image;
+    }
+    &__item--maszyny{
+        background-image: url('../img/strefy/strefa-maszyn.png');
+        @include ofert-image;
+    }
+    &__item--spa{
+        background-image: url('../img/strefy/strefa-sauna2.png');
+        @include ofert-image;
+    }
 }

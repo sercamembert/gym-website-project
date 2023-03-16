@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 @keyframes go-up {
   50% {
     transform: translateY(-15px);
@@ -141,8 +142,95 @@ body {
 }
 
 .ofert {
+  margin-top: 100px;
   flex-basis: 100%;
-  background-color: rgb(19, 79, 59);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.ofert__item {
+  flex-basis: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow: 0 0 3px 0 #000;
+}
+@media (min-width: 1024px) {
+  .ofert__item {
+    flex-basis: 30%;
+  }
+}
+.ofert__item:hover {
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 #000;
+}
+.ofert__text {
+  font-family: "Bungee", cursive;
+  color: white;
+  text-shadow: -1px 0 orange, 0 2px orange, 2px 0 orange, 0 -1px orange;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+@media (min-width: 1440px) {
+  .ofert__text {
+    font-size: 2rem;
+  }
+}
+.ofert__container {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-self: center;
+  justify-content: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ofert__container--2 {
+  justify-content: right;
+}
+.ofert__heading {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Bungee", cursive;
+}
+@media (min-width: 1024px) {
+  .ofert__heading {
+    font-size: 2.4rem;
+  }
+}
+.ofert__item--cardio {
+  background-image: url("../img/strefy/cardio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ofert__item--grupowe {
+  background-image: url("../img/strefy/strefa-grupowa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ofert__item--funkcjonalny {
+  background-image: url("../img/strefy/trening-funkcjonalny.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ofert__item--ciezary {
+  background-image: url("../img/strefy/wolne-ciezary.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ofert__item--maszyny {
+  background-image: url("../img/strefy/strefa-maszyn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ofert__item--spa {
+  background-image: url("../img/strefy/strefa-sauna2.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cards {
