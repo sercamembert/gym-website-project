@@ -25,9 +25,7 @@
         text-align: center;
         font-size: 2rem;
         font-family: $heading-font;
-        @media (min-width:1024px) {
-            font-size: 2.4rem;
-        }
+        @include media-font-size;
     }    
 
     &__location{
@@ -53,9 +51,7 @@
         @media (min-width:768px) {
             font-size: 1.9rem;
         }
-        @media (min-width:1024px) {
-            font-size: 2.4rem;
-        }
+        @include media-font-size;
     }
     &__item-container{
         padding-left: 20px;
