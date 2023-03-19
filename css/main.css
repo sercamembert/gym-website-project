@@ -269,6 +269,8 @@ body {
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .opinion__main {
   padding: 20px;
