@@ -241,6 +241,12 @@ body {
   -moz-column-gap: 40px;
        column-gap: 40px;
 }
+.cards__image {
+  transition: 0.3s;
+}
+.cards__image:hover {
+  transform: scale(1.1);
+}
 .cards__item {
   display: flex;
   justify-content: center;
