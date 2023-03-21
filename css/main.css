@@ -644,7 +644,6 @@ a span:nth-child(4) {
   background-color: #AC8D20;
   width: 300px;
   height: 300px;
-  animation: fly 2s linear infinite;
 }
 .ellipse--bottom {
   bottom: 0;
@@ -653,16 +652,4 @@ a span:nth-child(4) {
   background-color: #FE9000;
   width: 300px;
   height: 300px;
-}
-
-@keyframes fly {
-  0% {
-    transform: translate(-50%, -50%) translateY(0) translateX(0);
-  }
-  50% {
-    transform: translate(-50%, -50%) translateY(-200px) translateX(200px);
-  }
-  100% {
-    transform: translate(-50%, -50%) translateY(0) translateX(0);
-  }
 }/*# sourceMappingURL=main.css.map */
