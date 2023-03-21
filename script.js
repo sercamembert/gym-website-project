@@ -11,3 +11,6 @@ const sign = (e)=>{
         result.innerHTML = `<p class="newsletter__response newsletter__response--wrong">Nieprawidłowy adres e-mail!</p>`
     }
 }
+
+
+

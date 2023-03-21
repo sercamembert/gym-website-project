@@ -1,0 +1,38 @@
+.ellipse{
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    border-radius: 50%;
+    &--top{
+        top: 0;
+        left: 0;
+        transform: translateX(-80px) translateY(-80px);
+        background-color: #AC8D20;
+        width: 300px;
+        height: 300px;
+        animation: fly 2s linear infinite;
+    }
+    &--bottom{
+        bottom: 0;
+        right: 0;
+        transform: translateX(80px) translateY(80px);
+        background-color:#FE9000;
+        width: 300px;
+        height: 300px;
+
+    }
+}
+@keyframes fly {
+    0% {
+      transform: translate(-50%, -50%) translateY(0) translateX(0);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateY(-200px) translateX(200px);
+    }
+    100% {
+      transform: translate(-50%, -50%) translateY(0) translateX(0);
+    }
+  }
