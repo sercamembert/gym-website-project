@@ -19,8 +19,6 @@ body {
   box-sizing: border-box;
   font-size: 10px;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
-  background-color: orange;
 }
 
 .welcome {
