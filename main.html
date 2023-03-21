@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo"><img src="img/logo.png" alt="logo" class="header__image"></div>
+            <nav class="header__info">
+                <div class="header__item header__item--orange"><i class="fa-solid fa-cart-arrow-down"></i><span class="header__pass">Kup karnet</span></div>
+                <div class="header__item"><i class="fa-solid fa-user  header__icon--login"></i></div>
+                <div class="header__item header__item--theme-change"><i class="fa-solid fa-circle-half-stroke header__icon"></i></div>
+                <div class="header__item"><i class="fa-solid fa-bars header__icon"></i></div>
+            </nav>
+    </header>
+    <div class="wrapper">
+        <section class="slider">
+            <img src="img/zdjecie-gowne.png" alt="main-image" class="slider__image">
+        </section>  
+        <section class="description">
+            <div class="description__about">
+                <span class="description__heading">
+                    O JUSTGYM
+                </span>
+                <span class="description__main-text">
+                    Jeśli prowadzisz aktywny tryb życia i cenisz sobie komfort oraz profesjonalną opiekę trenerów, zapraszamy na indywidualny trening lub zajęcia grupowe – a jest z czego wybierać! Na uwagę zasługuje m.in. trening wytrzymałościowo-siłowy Professional Cross, organizowany w specjalnej klatce. Nauka poprawnej techniki ćwiczeń jest tu kluczowa, ale intensywny trening przynosi pożądane efekty – głównie spalanie kalorii, wzrost siły i poprawę kondycji. Zobacz wszystkie odbywające się w naszych klubach fitness zajęcia i wybierz się na wybrane z nich, a potem zrelaksuj się w saunie
+                </span>
+            </div>
+            <div class="description__location">
+                <span class="description__location-heading">
+                    NOWE OTWARCIE!
+                </span>
+                <div class="description__item-container">
+                    <span class="description__item">Gdańsk</span>
+                    <span class="description__item">Pingowa 35</span>
+                    <span class="description__item">80-298 Gdańsk</span>
+                </div>
+                <div class="description__item-container">
+                    <span class="description__item description__item--show"><i class="fa-solid fa-location-dot"></i> Pokaż lokalizacje</span>
+                </div>
+                <div class="description__item-container">
+                    <span class="description__item">+48 1234 1234 1234</span>
+                    <span class="description__item">justgym@gmail.com</span>
+                </div>
+            </div>
+        </section>
+        <section class="ofert">
+            <span class="ofert__heading">STREFY TRENINGOWE</span>
+            <div class="ofert__container">
+                <div class="ofert__item ofert__item--cardio"><span class="ofert__text"> strefa cardio</span></div>
+                <div class="ofert__item ofert__item--grupowe"><span class="ofert__text">zajęcia grupowe</span></div>
+                <div class="ofert__item ofert__item--funkcjonalny"><span class="ofert__text">kalistenika</span></div>
+            </div>
+            <div class="ofert__container ofert__container--2">
+                <div class="ofert__item ofert__item--ciezary"><span class="ofert__text">wolne ciężary</span></div>
+                <div class="ofert__item ofert__item--maszyny"><span class="ofert__text">strefa maszyn</span></div>
+                <div class="ofert__item ofert__item--spa"><span class="ofert__text">Spa&Welness</span></div>
+            </div>
+        </section>
+        <section class="opinion">
+            <fieldset class="opinion__main">
+                <legend><img src="img/avatar.png" alt="avatar" class="opinion__image"></legend>
+                <p class="opinion__text">Dawno już nie widziałam tak dobrze wyposażonej siłowni. Widać, że ludzie z justgym znają się na rzeczy i wiedzą gdzie najlepiej trenować. Nowoczesny sprzęt w dużej ilości zapewnia możliwość ćwiczeń bez konieczności oczekiwania na zwolnienie się któregoś z przyrządów. Wszystkie pomieszczenia klubu czyste, aż miło popatrzeć. </p>
+                <span class="opinion__text">Kamil Bednarczyk</span>
+            </fieldset>
+        </section>
+        <section class="cards">
+            <span class="cards__heading">HONORUJEMY KARTY</span>
+            <div class="cards__item"><img src="img/cards/beactive.png" alt="card-beactive" class="cards__image"></div>
+            <div class="cards__item"><img src="img/cards/multisport.png" alt="card-multi" class="cards__image"></div>
+            <div class="cards__item"><img src="img/cards/mylife.png" alt="card-mylife" class="cards__image"></div>
+        </section>
+        <section class="newsletter">
+            <span class="newsletter__heading"><i class="fa-solid fa-envelope-open-text"></i> ZAPISZ SIĘ DO NEWSLETTERA</span>
+            <form class="newsletter__inputs">
+                <input type="text" name="newsletter-input" class="newsletter__input" required placeholder="Wpisz email.."><input type="submit" value="Zapisz się" class="newsletter__button">
+            </form>
+            <div class="newsletter__response-container"></div>
+        </section>
+        <footer class="footer">
+            <div class="footer__socials">
+                <i class="footer__icon fa-brands fa-facebook"></i>
+                <i class="footer__icon fa-brands fa-instagram"></i>
+                <i class="footer__icon fa-brands fa-tiktok"></i>
+                <i class="footer__icon fa-brands fa-spotify"></i>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/form.js"></script>
+</body>
+</html>
