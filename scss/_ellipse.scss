@@ -1,5 +1,5 @@
 .ellipse{
-    z-index: 0;
+
     position: absolute;
     display: flex;
     justify-content: center;
@@ -11,12 +11,9 @@
         left: 0;
         transform: translateX(-112px) translateY(-112px);
         background-color: #AC8D20;
-        width: 400px;
-        height: 400px;
-        animation: ellipse-transition-top 1s;
-        &:hover{
-            @include ellipse-zoom;
-        }
+        width: 480px;
+        height: 480px;
+
     }
     &--bottom{
         bottom: 0;
@@ -25,8 +22,6 @@
         background-color:#FE9000;
         width: 480px;
         height: 480px;
-        &:hover{
-            @include ellipse-zoom;
-        }
+
     }
 }

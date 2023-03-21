@@ -72,17 +72,35 @@
 @keyframes ellipse-transition-top{
     0%{
         transform: translateX(-112px) translateY(-112px);
+        width: 480px;
+        height: 480px;
     }
     100%{
-        transform: translateX(70%) translateY(70%);
+        transform: translateX(20%) translateY(20%);
+        width: 1000px;
+        height: 1000px;
     }
 }
 
 @keyframes ellipse-transition-bottom{
     0%{
         transform: translateX(-112px) translateY(-112px);
+        width: 480px;
+        height: 480px;
     }
+
     100%{
-        transform: translateX(70%) translateY(70%);
+        transform: translateX(-20%) translateY(-20%);
+        width: 1000px;
+        height: 1000px;
     }
+}
+
+.elipse-end-top{
+    z-index: 1000;
+    animation: ellipse-transition-top .8s;
+}
+.elipse-end-bottom{
+    z-index: 1000;
+    animation: ellipse-transition-bottom .8s;
 }

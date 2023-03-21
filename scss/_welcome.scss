@@ -30,6 +30,7 @@
         justify-content: center;
     }
     &__text{
+        z-index: 2;
         flex-basis: 90%;
         text-align: center;
         @media (min-width:1024px) {
