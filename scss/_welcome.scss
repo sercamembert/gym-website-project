@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    video{
+    &__video{
         z-index: -1;
         position: absolute;
         opacity: 0.2;
