@@ -96,12 +96,11 @@
         height: 1800px;
     }
 }
-
-.elipse-end-top{
-    z-index: 1000;
-    animation: ellipse-transition-top 1s;
-}
-.elipse-end-bottom{
-    z-index: 1000;
-    animation: ellipse-transition-bottom 1s;
-}
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }

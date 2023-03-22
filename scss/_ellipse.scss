@@ -26,4 +26,14 @@
         width: 480px;
         height: 480px;
     }
+        
+    &__end-top{
+        z-index: 1000;
+        animation: ellipse-transition-top 1s;
+    }
+    &__end-bottom{
+        z-index: 1000;
+        animation: ellipse-transition-bottom 1s;
+    }
 }
+
