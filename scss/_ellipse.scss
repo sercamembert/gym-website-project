@@ -6,11 +6,16 @@
     align-items: center;
     transition: 1s;
     border-radius: 50%;
+    @media (max-width:1024px) {
+        width: 300px;
+        height: 300px;
+    }
     &--top{
         top: 0;
         left: 0;
-        transform: translateX(-112px) translateY(-112px);
+        transform: translateX(-450px) translateY(-450px);
         background-color: #AC8D20;
+        
         width: 480px;
         height: 480px;
 
@@ -18,10 +23,9 @@
     &--bottom{
         bottom: 0;
         right: 0;
-        transform: translateX(112px) translateY(112px);
+        transform: translateX(450px) translateY(450px);
         background-color:#FE9000;
         width: 480px;
         height: 480px;
-
     }
 }
