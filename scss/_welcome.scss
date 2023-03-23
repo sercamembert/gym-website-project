@@ -73,11 +73,9 @@
         position: absolute;
         display: block;
     }
-
 }
 
 &__span1{
-    opacity: .8;
     top: 0;
     left: -100%;
     width: 100%;
@@ -87,7 +85,6 @@
 }
 
 &__span2{
-    opacity: .8;
     top: -100%;
     right: 0;
     width: 3px;
@@ -98,7 +95,6 @@
 }
 
 &__span3{
-    opacity: .8;
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -108,7 +104,6 @@
     animation-delay: 1s;
 }
 &__span4{
-    opacity: .8;
     bottom: -100%;
     left: 0;
     width: 3px;

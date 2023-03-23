@@ -6,7 +6,7 @@
 
 @mixin hover-orange{
     &:hover{
-            color: orange;
+            color: $main-color;
             cursor: pointer;
     }
 

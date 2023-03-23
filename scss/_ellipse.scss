@@ -5,7 +5,7 @@
     align-items: center;
     transition: 1s;
     border-radius: 50%;
-    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0,);
     @media (max-width:1024px) {
         width: 300px;
         height: 300px;
@@ -14,7 +14,7 @@
         top: 0;
         left: 0;
         transform: translateX(-450px) translateY(-450px);
-        background-color: #AC8D20;
+        background-color: $ellipse-top-color;
         width: 480px;
         height: 480px;
 
@@ -23,7 +23,7 @@
         bottom: 0;
         right: 0;
         transform: translateX(450px) translateY(450px);
-        background-color:#FE9000;
+        background-color: $ellipse-bottom-color;
         width: 480px;
         height: 480px;
     }

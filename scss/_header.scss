@@ -64,11 +64,17 @@
             animation-iteration-count: 1;
             @include hover-orange;
         }
+        &--header-scroll{
+            &:hover{
+                cursor: pointer;
+                color: black;
+            }
+        }
     }
     &__is-sticky{
         position: fixed;
         box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
-        background-color: orange;
+        background-color: $main-color;
         animation: slideDown .6s ease-out;
     }
     &__cart-bg{
