@@ -5,6 +5,7 @@
     align-items: center;
     transition: 1s;
     border-radius: 50%;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
     @media (max-width:1024px) {
         width: 300px;
         height: 300px;

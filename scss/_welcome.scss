@@ -61,21 +61,23 @@
     font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: background-color .7s;
     overflow: hidden;
     letter-spacing: 2px;
+    &:hover{
+        cursor: pointer;
+        color: $main-color;
+        background-color: black;
+        }
     span{
         position: absolute;
         display: block;
     }
-    &:hover{
-    cursor: pointer;
-    color: #000000;
-}
+
 }
 
 &__span1{
-    opacity: .7;
+    opacity: .8;
     top: 0;
     left: -100%;
     width: 100%;
@@ -85,7 +87,7 @@
 }
 
 &__span2{
-    opacity: .7;
+    opacity: .8;
     top: -100%;
     right: 0;
     width: 3px;
@@ -96,7 +98,7 @@
 }
 
 &__span3{
-    opacity: .7;
+    opacity: .8;
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -106,7 +108,7 @@
     animation-delay: 1s;
 }
 &__span4{
-    opacity: .7;
+    opacity: .8;
     bottom: -100%;
     left: 0;
     width: 3px;
