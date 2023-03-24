@@ -822,6 +822,10 @@ body {
   color: aliceblue;
   cursor: pointer;
 }
+.sidebar__item-text--pass {
+  font-size: 2rem;
+  font-weight: 900;
+}
 .sidebar__footer {
   flex-basis: 82%;
   border-top: 2px solid black;

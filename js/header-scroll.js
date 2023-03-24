@@ -11,7 +11,6 @@ window.addEventListener('scroll',()=>{
         header.classList.add(toggleClass);
         cart.classList.add(bgClass)
       icons.forEach(element => {
-        console.log(element)
         element.classList.add(iconClass)
       })
       } else {
