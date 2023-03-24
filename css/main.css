@@ -101,6 +101,7 @@ body {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .none {
@@ -109,6 +110,14 @@ body {
 
 .opacity {
   opacity: 0;
+}
+
+.darken {
+  filter: brightness(60%);
+}
+
+.light {
+  opacity: 1;
 }
 
 .welcome {
@@ -745,7 +754,7 @@ body {
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   z-index: 100;
   top: 0;
@@ -753,10 +762,14 @@ body {
   min-height: 100vh;
   width: 100vw;
   max-width: 100%;
+  transform: translateX(100%);
   background-color: orange;
   font-family: "Roboto", sans-serif;
-  transform: translateX(1000%);
+  transition: 0.5s;
   box-shadow: 10px 5px 40px rgb(0, 0, 0);
+}
+.sidebar--open {
+  transform: translateX(0%) !important;
 }
 .sidebar__wrapper {
   display: flex;

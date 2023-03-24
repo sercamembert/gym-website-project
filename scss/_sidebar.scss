@@ -1,5 +1,5 @@
 .sidebar{
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     z-index: 100;
     top: 0;
@@ -7,10 +7,14 @@
     min-height: 100vh;
     width: 100vw;
     max-width:100%;
+    transform: translateX(100%);
     background-color: $main-color;
     font-family: $regular-font;
-    transform: translateX(1000%);
+    transition: .5s;
     box-shadow: 10px 5px 40px rgba(0, 0, 0);
+    &--open{
+        transform: translateX(0%) !important; 
+    }
     &__wrapper{
         display: flex;
         flex-wrap: wrap;
