@@ -12,7 +12,8 @@ window.addEventListener('scroll',()=>{
         cart.classList.add(bgClass)
       icons.forEach(element => {
         console.log(element)
-        element.style.color = 'black'})
+        element.classList.add(iconClass)
+      })
       } else {
         header.classList.remove(toggleClass);
         cart.classList.remove(bgClass)

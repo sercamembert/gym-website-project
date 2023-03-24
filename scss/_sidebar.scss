@@ -1,0 +1,89 @@
+.sidebar{
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    width: 100vw;
+    max-width:100%;
+    background-color: $main-color;
+    font-family: $regular-font;
+    transform: translateX(1000%);
+    box-shadow: 10px 5px 40px rgba(0, 0, 0);
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    @media (min-width:1024px) {
+        width: 30%;
+    }
+    &__image{
+        width: 150px;
+    }
+    &__club{
+        margin-top: 50px;
+        flex-basis: 100%;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
+    &__select-city{
+        padding: 7px;
+        font-size: 1.4rem;
+        border: 2px solid black;
+        background-color: $main-color;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__items-container{
+        margin-top: 50px;
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__item{
+        flex-basis: 100%;
+        font-size: 1.8rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    &__item-text{
+        transition: .4s;
+        &:hover{
+            font-size: 2.2rem;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    }
+    &__footer{
+        flex-basis: 82%;
+        border-top: 2px solid black;
+        background-color: none;
+        @include footer;
+        position: absolute;
+        bottom: 0px;
+        width: 80%;
+    }
+    &__close{
+        z-index: 10;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    &__x-icon{
+        font-size: 3rem;
+        transition: .7s;
+        &:hover{
+            cursor: pointer;
+            color: white;
+            font-size: 4rem;
+        }
+    }
+    
+}

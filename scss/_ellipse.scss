@@ -36,5 +36,27 @@
         z-index: 1000;
         animation: ellipse-transition-bottom 1s;
     }
+
+    &--sidebar-top{
+        z-index: -1;
+        box-shadow: none;
+        top: 0;
+        right: 0;
+        transform: translateX(40px) translateY(-50px);
+        background-color: $ellipse-top-color;
+        width: 250px;
+        height: 250px;
+    }
+    
+    &--sidebar-bottom{
+        z-index: -1;
+        box-shadow: none;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-40px) translateY(50px);
+        background-color: $ellipse-bottom-color;
+        width: 320px;
+        height: 320px;
+    }
 }
 
