@@ -58,5 +58,26 @@
         width: 320px;
         height: 320px;
     }
+
+    &--pass-top{
+        z-index: 1;
+        box-shadow: none;
+        top: 0;
+        left: 0;
+        transform: translateX(-50px) translateY(-50px);
+        background-color: $ellipse-top-color;
+        width: 250px;
+        height: 250px;
+    }
+    &--pass-bottom{
+        z-index: 1;
+        box-shadow: none;
+        bottom:0;
+        right: 0;
+        transform: translateX(50px) translateY(50px);
+        background-color: $ellipse-bottom-color;
+        width: 280px;
+        height: 280px;
+    }
 }
 

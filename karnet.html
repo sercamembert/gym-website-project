@@ -21,14 +21,14 @@
     <nav class="sidebar">
         <div class="sidebar__wrapper">
         <img src="img/logo.png" alt="logo" class="sidebar__image">
-        <div class="sidebar__club">
-            <select class="sidebar__select-city">
+        <div class="input">
+            <select class="input__select-city">
                 <option>Wybierz klub</option>
-                <option value="Gdańsk" class="sidebar__city"><span class="sidebar__option-span">Gdańsk</span> </option>
-                <option value="Warszawa" class="sidebar__city"><span class="sidebar__option-span">Warszawa</span> </option>
-                <option value="Poznań" class="sidebar__city"><span class="sidebar__option-span">Poznań</span> </option>
-                <option value="Gdynia" class="sidebar__city"><span class="sidebar__option-span">Gdynia</span> </option>
-                <option value="Wrocław" class="sidebar__city"><span class="sidebar__option-span">Wrocław</span> </option>
+                <option value="Gdańsk" class="input__city"><span class="input__option-span">Gdańsk</span> </option>
+                <option value="Warszawa" class="input__city"><span class="input__option-span">Warszawa</span> </option>
+                <option value="Poznań" class="input__city"><span class="input__option-span">Poznań</span> </option>
+                <option value="Gdynia" class="input__city"><span class="input__option-span">Gdynia</span> </option>
+                <option value="Wrocław" class="input__city"><span class="input__option-span">Wrocław</span> </option>
             </select>
         </div>
         <div class="sidebar__items-container">
@@ -53,9 +53,48 @@
         <div class="ellipse ellipse--sidebar-bottom"></div>
         </div>
     </nav>
-    <div class="pass-wrapper">
+    <div class="wrapper">
         <section class="pass">
+            <div class="pass__container">
+                <div class="pass__heading-container">
+                    <span class="pass__heading pass__heading--top">KARNET</span>
+                    <span class="pass__heading pass__heading--bottom">JUSTGYM</span>
+                </div>
+                <div class="pass__inputs-container">
+                    <div class="input">
+                        <select class="input__select-city">
+                            <option>Wybierz klub</option>
+                            <option value="Gdańsk" class="input__city"><span class="input__option-span">Gdańsk</span> </option>
+                            <option value="Warszawa" class="input__city"><span class="input__option-span">Warszawa</span> </option>
+                            <option value="Poznań" class="input__city"><span class="input__option-span">Poznań</span> </option>
+                            <option value="Gdynia" class="input__city"><span class="input__option-span">Gdynia</span> </option>
+                            <option value="Wrocław" class="input__city"><span class="input__option-span">Wrocław</span> </option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <select class="input__select-city">
+                            <option>Okres trwania</option>
+                            <option value="24h" class="input__city"><span class="input__option-span">24h</span> </option>
+                            <option value="1 miesiąc" class="input__city"><span class="input__option-span">1 miesiąc</span> </option>
+                            <option value="3 miesiące" class="input__city"><span class="input__option-span">3 miesiące</span> </option>
+                            <option value="12 miesięcy" class="input__city"><span class="input__option-span">12 miesięcy</span> </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="pass__price">CENA 120PLN</div>
 
+                <div class="pass__details-container">
+                    <div class="pass__detail pass__detail--1"><span class="pass__detail-text">Opłata wpisowa</span><span class="pass__detail-text pass__detail-text--right"">NIE</span></div> 
+                    <div class="pass__detail pass__detail--2"><span class="pass__detail-text">Zamrożenie karnetu</span><span class="pass__detail-text pass__detail-text--right"">NIE</span></div> 
+                    <div class="pass__detail pass__detail--3"><span class="pass__detail-text">Nielimitowany dostęp 24H</span><span class="pass__detail-text pass__detail-text--right">TAK</span></div> 
+                </div>
+                <div class="ellipse ellipse--pass-top"></div>
+                <div class="ellipse ellipse--pass-bottom"></div>
+                <div class="pass__button-container">
+                    <input type="button" value="Kup karnet" class="pass__button">
+                </div>
+
+            </div>
         </section>
         <section class="pass-cards">
 
