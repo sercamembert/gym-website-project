@@ -1005,7 +1005,7 @@ body {
   transform: translateX(-20px);
 }
 .pass__heading--bottom {
-  transform: translateY(-40px) translateX(20px);
+  transform: translateY(-10px) translateX(20px);
 }
 .pass__inputs-container {
   flex-basis: 100%;
