@@ -1068,7 +1068,7 @@ body {
   height: 50px;
   border: none;
   text-align: center;
-  z-index: 100;
+  z-index: 10;
 }
 .pass__button:hover {
   cursor: pointer;
