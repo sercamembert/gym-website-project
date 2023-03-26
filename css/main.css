@@ -1063,8 +1063,7 @@ body {
   background-color: orangered;
   font-family: "Bungee", cursive;
   font-size: 1.2rem;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 5px;
   border: none;
   text-align: center;
   z-index: 100;
