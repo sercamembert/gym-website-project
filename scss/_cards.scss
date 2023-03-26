@@ -27,4 +27,8 @@
         font-family: $heading-font;
         @include media-font-size;
     }
+    &--pass{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
 }
