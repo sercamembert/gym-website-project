@@ -34,12 +34,7 @@
         z-index: 100;
         font-size: 2rem;
         font-family: $heading-font;
-        &--top{
-            transform: translateX(-20px);
-        }
-        &--bottom{
-            transform: translateY(-10px) translateX(20px);
-        }
+
     }
     &__inputs-container{
         flex-basis: 100%;

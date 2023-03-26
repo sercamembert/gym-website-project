@@ -1001,12 +1001,6 @@ body {
   font-size: 2rem;
   font-family: "Bungee", cursive;
 }
-.pass__heading--top {
-  transform: translateX(-20px);
-}
-.pass__heading--bottom {
-  transform: translateY(-10px) translateX(20px);
-}
 .pass__inputs-container {
   flex-basis: 100%;
   display: flex;
