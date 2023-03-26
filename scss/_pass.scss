@@ -9,7 +9,8 @@
         overflow: hidden;
         position: relative;
         flex-basis: 90%;
-        height: 700px;
+        height: auto;
+        padding-bottom: 20px;
         @media (min-width:768px) {
             flex-basis: 60%;  
         }

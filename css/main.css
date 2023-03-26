@@ -970,7 +970,8 @@ body {
   overflow: hidden;
   position: relative;
   flex-basis: 90%;
-  height: 700px;
+  height: auto;
+  padding-bottom: 20px;
   background-color: orange;
 }
 @media (min-width: 768px) {
