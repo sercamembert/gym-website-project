@@ -1016,7 +1016,7 @@ body {
   justify-content: center;
   z-index: 10;
 }
-.input__select-city {
+.input__select-option {
   width: 180px;
   height: 50px;
   font-size: 1.2rem;
@@ -1025,6 +1025,6 @@ body {
   -moz-text-align-last: center;
        text-align-last: center;
 }
-.input__select-city:hover {
+.input__select-option:hover {
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
