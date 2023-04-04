@@ -614,6 +614,7 @@ body {
 
 .header {
   position: sticky;
+  z-index: 999;
   top: 0;
   width: 100vw;
   height: 80px;
@@ -621,7 +622,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  z-index: 999;
 }
 .header__logo {
   flex-basis: 110px;
